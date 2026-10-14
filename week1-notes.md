@@ -13,9 +13,11 @@ The AI processes your message and generates an answer one piece at a time.
 You enter a prompt
 "What is JavaScript?"
         ⬇️
+		
 LLM processes the prompt
 Uses learned patterns to predict what comes next
         ⬇️
+		
 AI generates a response
 "JavaScript is a programming language..."
 
@@ -60,10 +62,13 @@ The basic flow is:
 
 Text: Hello world!
         ⬇️
+		
 Tokenizer splits the text
         ⬇️
+		
 Token pieces and their numeric IDs
         ⬇️
+		
 The model processes those IDs
 
 A model doesn't simply receive your sentence as ordinary text internally. The tokenizer converts the text into token IDs — numbers representing token pieces in its vocabulary.
