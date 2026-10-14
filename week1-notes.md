@@ -12,10 +12,12 @@ The AI processes your message and generates an answer one piece at a time.
 
 You enter a prompt
 "What is JavaScript?"
+
         ⬇️
 		
 LLM processes the prompt
 Uses learned patterns to predict what comes next
+
         ⬇️
 		
 AI generates a response
@@ -61,12 +63,15 @@ Tokenization is the process of splitting text into tokens that a model can proce
 The basic flow is:
 
 Text: Hello world!
+
         ⬇️
 		
 Tokenizer splits the text
+
         ⬇️
 		
 Token pieces and their numeric IDs
+
         ⬇️
 		
 The model processes those IDs
