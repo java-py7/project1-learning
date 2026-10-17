@@ -255,8 +255,15 @@ button { cursor: pointer; }
 <script>
 (() => {
   "use strict";
+  
+  const API_URL = (
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+  )
+    ? "http://127.0.0.1:8000/api/chat"
+    : "https://project1-learning.onrender.com/api/chat";
 
-  const API_URL = "http://127.0.0.1:8000/api/chat";
+
   const STORAGE_KEY = "simplechat.conversations.v1";
   const THEME_KEY = "simplechat.theme.v1";
 
