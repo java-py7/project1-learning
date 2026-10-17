@@ -17,7 +17,7 @@ app = FastAPI(title="Simple AI Chatbot API")
 # Restrict this to your frontend origin when deploying.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5500", "http://127.0.0.1:5500"],
+    allow_origins=["http://localhost:5500", "http://127.0.0.1:5500", "https://simplechatbot-v1.vercel.app"],
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
